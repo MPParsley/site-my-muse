@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <!-- Left mountain (navy) -->
+  <polygon points="60,300 200,40 260,160 200,160" fill="#1a3a6b"/>
+  <!-- Right mountain (navy) -->
+  <polygon points="140,160 200,40 340,300 200,160" fill="#1e4080"/>
+  <!-- Full M shape base -->
+  <polygon points="20,300 160,40 200,120 240,40 380,300" fill="#1a3a6b"/>
+  <!-- Left inner mountain (olive/green) -->
+  <polygon points="80,300 160,140 200,220 140,300" fill="#8b9a2b"/>
+  <!-- Right inner mountain (orange) -->
+  <polygon points="200,220 240,140 320,300 160,300" fill="#e8723a"/>
+  <!-- Left peak accent (pink) -->
+  <polygon points="148,78 160,40 172,78" fill="#e84c8a"/>
+  <!-- Right peak accent (sky blue) -->
+  <polygon points="228,78 240,40 252,78" fill="#87ceeb"/>
+  <!-- Left inner accent (amber) -->
+  <polygon points="152,170 160,140 168,170" fill="#f0a030"/>
+  <!-- Right inner accent (maroon) -->
+  <polygon points="232,170 240,140 248,170" fill="#8b1a2a"/>
+</svg>

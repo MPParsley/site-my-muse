@@ -524,20 +524,8 @@ p {
   color: #fff;
 }
 
-/* Language visibility — hide EN by default, show NL */
-.i18n-en { display: none; }
-
-body.lang-en .i18n-nl { display: none; }
-body.lang-en .i18n-en { display: block; }
-
-/* Grid containers need display:grid when visible in EN */
-body.lang-en .sessions-grid.i18n-en,
-body.lang-en .info-grid.i18n-en { display: grid; }
-
-/* Inline variants for nav link text spans */
-.i18n-en-inline { display: none; }
-body.lang-en .i18n-nl-inline { display: none; }
-body.lang-en .i18n-en-inline { display: inline; }
+/* Language visibility is handled by inline <style> in index.html
+   to prevent cache mismatch between HTML and CSS on deploy */
 
 /* Responsive */
 @media (min-width: 600px) {

@@ -7,6 +7,15 @@
   <meta name="description" content="My Muse: creatieve workshops geïnspireerd op Frida Kahlo's filosofie 'I am my own muse'. Ontdek je eigen creativiteit als bron van kracht en zelfexpressie.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <style>
+    /* Critical language toggle — inline to avoid cache mismatch */
+    .i18n-en, .i18n-en-inline { display: none !important; }
+    body.lang-en .i18n-nl, body.lang-en .i18n-nl-inline { display: none !important; }
+    body.lang-en .i18n-en { display: block !important; }
+    body.lang-en .i18n-en-inline { display: inline !important; }
+    body.lang-en .sessions-grid.i18n-en,
+    body.lang-en .info-grid.i18n-en { display: grid !important; }
+  </style>
 </head>
 <body>
   <a href="#main" class="skip-link">Ga naar inhoud</a>
